@@ -1,8 +1,16 @@
 # Project
 
 _This is the folder for your final project._
+# Hollywood Hacker
 
-_Remove all this text, and replace it with a description of your
-project. Include any information that would be useful in getting it
-to run._
+Turns any text file into a movie-style hacking scene.
 
+### How to run
+
+- **Windows**: double-click `run.bat`  
+- **Mac/Linux**: open terminal → `./run.sh`  
+  (or just `python3 hollywoodhacker.py target.txt`)
+
+Creates `hacking_session.txt` → pure hacker vibes.
+
+Made by Harry Rawlinson. 
