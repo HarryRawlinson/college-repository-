@@ -1,0 +1,1 @@
+py hollywoodhacker.py target.txt
