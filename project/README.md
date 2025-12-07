@@ -1,19 +1,19 @@
-# Project
-
-_This is the folder for your final project._
 # Hollywood Hacker – Terminal Hacking Simulator
 
-Turns any text file into a movie-style hacking scene.
-it has life typing that classic char by char appearing on screen 
-makes u remember the good old days where anything would take a while to process 
-## How to run
+A tongue and cheek Python script that turns any boring text file into proper movie-style hacking.
 
-Double-click `hollywoodhacker.py`  
-or run in terminal:
+## What it actually does
+- Takes a text file (defaults to `target.txt` if you don’t tell it otherwise)  
+- Prints the whole thing char-by-char with the classic slow typewriter effect  
+- Throws in fake “connecting to network” messages, random IPs, firewall bypass nonsense, payload injection lines – all the stuff you see in films  
+- Spits out random tech-sounding gibberish between sections for extra drama  
+- At the end it dumps the entire session into `hacking_session.txt` so it looks like a real log  
+- Works on Windows, Mac and Linux (clears screen properly)  
+- Pauses at the end so the window doesn’t just disappear
+
+## How to run it
+
+### Easy way (uses target.txt)
+Just double-click `hollywoodhacker.py` or  
 ```bash
-py hollywoodhacker.py target.txt
-
-Creates `hacking_session.txt` then you just sit back and watch the magic happen 
-# 
-Made by Harry Rawlinson. 
-
+python hollywoodhacker.py
