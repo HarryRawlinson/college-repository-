@@ -1,22 +1,35 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/9Rqvc9UM)
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=20778648)
-# Computer Programming: Portfolio
 
-## Harry Rawlinson
+# Computer Programming Portfolio  
+Harry Rawlinson – CS4C – Kazi
 
-### CS4C
-### Kazi
+All the work in this repo is mine. AI declaration is filled in, academic honesty stuff read and understood.
 
-By submitting this work you are confirming that the work in this repo is your own. 
+Folder layout left exactly as it was given.
 
-You are also confirming that you have completed the file `AI_Declaration.md` to confirm how you have
-used AI tools in the production of this work. You are confirming that you understand that, if this file 
-is blank, you will receive a mark of zero.
+### Repo contents
 
-You also confirm that you have read and understood the University's regulations relating to academic honesty.
+- `/notebooks`  – every lab notebook from the semester data structures, functions, file I/O, argparse exercises, etc.  
+- `/logbook`  – my 11 weeks of lecture notes, originally handwritten then converted to markdown.  
+- `/project`  – Hollywood Hacker terminal hacking simulator  
 
-**Do not change the folder structure in this repo.** 
+### Project: Hollywood Hacker
+Reads any text file and displays it in that typical nonesensical mission impossible hackerman style: 
+character-by-character typewriter effect, fake network messages, random IPs, firewall bypass lines, payload injection, green text, dramatic pauses.  
+Everything gets logged to `hacking_session.txt` at the end.  
+Works properly on Windows, Mac and Linux, takes command-line arguments, handles errors cleanly.
 
-*Note: This repo contains a ``.gitignore`` file that should exclude most common files that are not needed 
-in a Python repo. If you find that you are unable to commit a file that is important for your work, please 
-check the ``.gitignore`` file.*
+Shows file handling, timing control, string manipulation, cross-platform code, argparse, etc.
+
+
+### What I’ve learned this module
+- Solid Python fundamentals (syntax, control flow, data structures)  
+- File reading/writing and working with paths  
+- Command-line arguments (sys.argv + argparse)  
+- Proper Git workflow and meaningful commits  
+- Structuring code with functions and keeping it readable  
+- Debugging and testing systematically  
+- Writing cross-platform terminal code
+
+AI usage is fully documented in `AI_Declaration.md`. Used Copilot heavily and Claude/ChatGPT for occasional help, but all design decisions, logic and final implementation are my own.

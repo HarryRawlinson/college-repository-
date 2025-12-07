@@ -20,13 +20,13 @@ def main():
         sys.exit(1)
 
     try:
-        with open(file) as f:
+        with open(file, encoding='utf-8') as f:
             lines = f.readlines()
 
         # Clear screen for extra drama (optional but cool)
         os.system('cls' if os.name == 'nt' else 'clear')
 
-        with open("hacking_session.txt", "w") as f:
+        with open("hacking_session.txt", "w", encoding='utf-8') as f:
             def typewrite(text, delay=0.03):
                 for char in text:
                     print(char, end='', flush=True)

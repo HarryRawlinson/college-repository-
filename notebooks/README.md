@@ -21,3 +21,5 @@ Each notebook contains:
 - My own experiments and variations
 - Comments explaining what I learned
 - The occasional bug that took way too long to fix
+
+P.S sorry i took so long to get this in - harry 
